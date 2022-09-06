@@ -18,10 +18,11 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/', function () {
-    echo "Selamat Datang";
+    echo "Selamat Datang di Halaman Website Kami";
 });
 
 Route::get('/about', function () {
+    echo "<b> DATA MAHASISWA </b> <br><br>";
     echo "NIM : 1941720043 <br>
           Nama : Ardila Lukita Sari";
 });
